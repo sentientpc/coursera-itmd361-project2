@@ -1,0 +1,19 @@
+/* Styles for the home-info section */
+.home-info {
+  margin: 0 auto;
+  border-left: 4px solid #79aebe;
+  box-shadow: 0 10px 24px #00000059;
+}
+
+.home-info h2 {
+  margin-top: 0;
+  color: #b8e4ec;
+}
+
+.home-info p {
+  line-height: 1.7;
+}
+
+.home-info p:first-of-type {
+  margin-top: 0;
+}

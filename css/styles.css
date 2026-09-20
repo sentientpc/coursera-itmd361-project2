@@ -1,8 +1,17 @@
+/* Set the basic body styles for dark theme */
 body {
-  /* set the basic styles for dark theme */
   background-color: #000000;
   color: #ffffff;
   font-family: "Noto Sans", sans-serif;
+}
+
+/* Styles for all sections and footer except for the hero section */
+body > section:not(.hero),
+body > footer {
+  position: relative;
+  z-index: 1;
+  background-color: #000000;
+  padding: 1.5rem;
 }
 
 /* Sticky header styles */
@@ -43,4 +52,42 @@ header {
 #main-nav ul li.active a {
   background-color: #79aebe;
   color: #333;
+}
+
+/* Primary heading style to float over the hero section */
+body > h1 {
+  position: absolute;
+  top: calc(20vh - 38px);
+  left: 1.5rem;
+  right: 1.5rem;
+  z-index: 1;
+  margin: 0;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+/* Hero section styles */
+.hero {
+  position: sticky;
+  top: 0;
+  height: 70vh;
+  min-height: 360px;
+  overflow: hidden;
+  z-index: 0;
+  display: grid;
+  place-items: center;
+  background-color: #111;
+}
+
+.hero {
+  height: 20vh;
+}
+
+.hero img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.65;
 }

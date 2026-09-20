@@ -4,3 +4,36 @@ body {
   color: #ffffff;
   font-family: "Noto Sans", sans-serif;
 }
+
+/* Main navigation styles */
+#main-nav {
+  display: flex;
+  justify-content: center;
+  background-color: #1b2a3e;
+}
+
+#main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#main-nav ul li {
+  float: left;
+}
+
+#main-nav ul li a {
+  padding: 10px 25px;
+  display: block;
+  text-decoration: none;
+  color: #ccc;
+}
+
+#main-nav ul li a:hover {
+  text-decoration: underline;
+}
+
+#main-nav ul li.active a {
+  background-color: #79aebe;
+  color: #333;
+}

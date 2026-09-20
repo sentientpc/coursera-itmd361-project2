@@ -1,0 +1,28 @@
+/* Audio info styles */
+.audio-info {
+  border-left: 4px solid #79aebe;
+}
+
+.audio-info h2 {
+  color: #79aebe;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+/* Audio track styles */
+.audio-track {
+  border-top: 1px solid #79aebe;
+  padding-top: 1rem;
+  border-left: 4px solid #79aebe;
+}
+
+.audio-track h3 {
+  color: #79aebe;
+  margin-top: 0;
+}
+
+.audio-track audio {
+  display: block;
+  width: min(100%, 42rem);
+  accent-color: #79aebe;
+}

@@ -5,6 +5,13 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
+/* Sticky header styles */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
 /* Main navigation styles */
 #main-nav {
   display: flex;

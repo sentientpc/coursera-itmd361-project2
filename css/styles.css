@@ -8,6 +8,23 @@ body {
   flex-direction: column;
 }
 
+/* Content link styles */
+a {
+  color: #79aebe;
+  font-weight: 700;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  color: #b8e4ec;
+}
+
+a:focus-visible {
+  outline: 3px solid #b8e4ec;
+  outline-offset: 4px;
+}
+
 /* Styles for all sections and footer except for the hero section */
 body > section:not(.hero),
 body > footer {

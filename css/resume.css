@@ -1,0 +1,38 @@
+/* Styles for the resume-content sections */
+.resume-content {
+  position: relative;
+  z-index: 1;
+  background-color: #1b2a3e;
+}
+
+.resume-content > section {
+  margin: 1rem 0 0;
+  box-sizing: border-box;
+  border-left: 4px solid #79aebe;
+  padding: 1.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #000000;
+}
+
+.resume-content > section h2 {
+  margin: 0 0 1.25rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid #38566a;
+  color: #b8e4ec;
+  font-size: 1.5rem;
+  letter-spacing: 0.03em;
+}
+
+.resume-content > section h3 {
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+.resume-content > section p,
+.resume-content > section li {
+  line-height: 1.65;
+}
+
+.resume-content > section ul {
+  padding-left: 1.25rem;
+}

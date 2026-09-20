@@ -1,8 +1,11 @@
 /* Set the basic body styles for dark theme */
 body {
-  background-color: #000000;
+  background-color: #1b2a3e;
   color: #ffffff;
   font-family: "Noto Sans", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Styles for all sections and footer except for the hero section */
@@ -90,4 +93,10 @@ body > h1 {
   height: 100%;
   object-fit: cover;
   opacity: 0.65;
+}
+
+/* Footer styles */
+body > footer {
+  background-color: #1b2a3e;
+  margin-top: auto;
 }
